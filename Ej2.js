@@ -9,6 +9,18 @@
         horarioss
         toma 1 5
         toma 2 11
-        toma 317
-        toma 4 23*/
+        toma 3 17
+        toma 4 23
+*/
+
+let horas = 4;
+let hrainicial = 5;
+let frecuencia = 6;
+let toma = 24/frecuencia;
+
+console.log("No. de toma:" , toma);
+
+/* for(let i=hrainicial; i=toma; i=hrainicial){
+        console.log("No. de toma:" , toma, "Hora: ", i);
+} */;
 
