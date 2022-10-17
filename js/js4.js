@@ -52,6 +52,19 @@ console.log("Total de divisores",divisoresV3(32));
 
                 /* summary */
 
-/* funcion nombre */  function nombre(){};
-/* funcion anonima */ const nombre = function(){};
-/* funcion flecha */  const nombre = () => {};
+/* funcion nombre */  /* function nombre(){}; */
+/* funcion anonima */ /* const nombre = function(){}; */
+/* funcion flecha */  /* const nombre = () => {}; */
+
+/* ------------------------------------------------------------------------------------*/
+
+/* parseInt es para que se convierta */
+
+function calcular(){
+    let numero = parseInt(document.getElementById("numero").value);
+    let resultado = document.getElementById("resul");
+    resultado.value = divisores(numero);
+}
+
+
+
