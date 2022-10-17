@@ -1,4 +1,4 @@
-/* Ejemplo de funcion */
+/* Ejemplo de funcion con nombre */
 function divisores(numero){
     let total = 0;
 
@@ -31,3 +31,27 @@ const divisoresV2 = function(numero){
 };
 
 console.log("Total de divisores",divisoresV2(32));
+
+/* funcion con flecha 
+cuando solo tiene un parametro se puede quitar parentesis*/
+
+/* const divisoresV3 = () => {}; */
+
+const divisoresV3 = (numero) => {
+    let total = 0;
+
+    for(let i=1; i<=numero; i++){
+        if(numero % i == 0){
+            total++;
+        }
+    }
+    return total
+};
+
+console.log("Total de divisores",divisoresV3(32));
+
+                /* summary */
+
+/* funcion nombre */  function nombre(){};
+/* funcion anonima */ const nombre = function(){};
+/* funcion flecha */  const nombre = () => {};
