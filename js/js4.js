@@ -64,7 +64,31 @@ function calcular(){
     let numero = parseInt(document.getElementById("numero").value);
     let resultado = document.getElementById("resul");
     resultado.value = divisores(numero);
-}
+};
+
+/* .scr="img/playa(1).jpg" */
+/* funcion para ver imagenes */
+
+function VerImg() {
+    let img = parseInt(document.getElementById("numimg").value);
+    console.log(img);
+
+    switch(img){
+        case 1: 
+            Resultado = document.getElementById("Resultado").scr = "https://www.pexels.com/es-es/foto/vista-panoramica-del-oceano-durante-la-puesta-de-sol-1032650/";
+        break;
+        case 2:
+
+        break;
+        case 3:
+        break;
+        case 4:
+        break;
+        case 5:
+        break;     
+
+    };
+};
 
 
 
