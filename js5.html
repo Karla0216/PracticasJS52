@@ -1,0 +1,51 @@
+<!-- /* PROGRAMA CALCULADORA
+Numero _______
+Numero _______
+Operacion _____
+<Calcular> */ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULADORA</title>
+    <script src="js/js5.js"></script>
+</head>
+<body>
+    <div>
+        <h1>CALCULADORA</h1>
+        <br>
+        <div>
+            <label for="primer_numero">Primer Nùmero</label>
+            <input type="number" name="primer_numero" id="primer_numero">
+        </div>
+        <br>
+        <div>
+            <label for="segundo_numero">Segundo Nùmero</label>
+            <input type="number" name="segundo_numero" id="segundo_numero">
+        </div>
+        <br>
+        <div>
+            <label for="operacion">Operacion</label>
+            <select name="operacion" id="operacion">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">*</option>
+                <option value="/">/</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for="resultado">Resultado</label>
+            <input type="number" name="resultado" id="resultado">
+        </div>
+        <br>
+        <div>
+            <button onclick="calcular()">Calcular</button>
+        </div>
+    </div>
+
+</body>
+</html>
