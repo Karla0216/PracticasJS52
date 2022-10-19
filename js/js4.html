@@ -30,33 +30,23 @@
     </div>
     <br>
     <br>
-    <div style="border: solid black; text-align: center;">
-        <br>
-        <div>
-            <label for="numimg">Número de Imagen</label>
-            <input type="text" name="numimg" id="numimg">
-        </div>
-        <br>
-        <div >
-           <img style=" height: 300px; width: 200px; " src="img/playa(1).jpg" alt="1" id="1"> 
-           <img style=" height: 300px; width: 200px; " src="img/playa(2).jpg" alt="2" id="2"> 
-           <img style=" height: 300px; width: 200px; " src="img/playa(3).jpg" alt="3" id="3"> 
-           <img style=" height: 300px; width: 200px; " src="img/playa(4).jpg" alt="4" id="4"> 
-           <img style=" height: 300px; width: 200px; " src="img/playa(5).jpg" alt="5" id="5"> 
-        </div>
-        <br>
-        <div>
-<!--             <label for="resulimg">Resultado</label>
-            <input type="text" name="resulimg" id="resulimg"> -->
-            <img src="Resultado" alt="Resultado" id="Resultado">
-        </div>
-        <br>
-        <div>
-            <button onclick="VerImg()">Ver</button>
-        </div>
-        <br>
+
+<div style="border: solid black; text-align: center;">
+    <h1>Ver Imagenes</h1>
+    <div>
+        <label for="num_imagen">Numero de la imagen:</label>
+        <input type="text" name="num_imagen" id="num_imagen">
     </div>
     <br>
+    <div>
+        <button onclick="imagen()">Mostrar imagen</button>
+    </div>
+    <br>
+    <div style="justify-items: center;">
+        <img src="" alt="imagen" id="tamañoimg" style="display: none;" height="300px" width= "200px">
+    </div>
+    <br>
+</div>
 
 </body>
 </html>

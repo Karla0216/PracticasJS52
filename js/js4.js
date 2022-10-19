@@ -69,26 +69,33 @@ function calcular(){
 /* .scr="img/playa(1).jpg" */
 /* funcion para ver imagenes */
 
-function VerImg() {
-    let img = parseInt(document.getElementById("numimg").value);
-    console.log(img);
 
-    switch(img){
-        case 1: 
-            Resultado = document.getElementById("Resultado").scr = "https://www.pexels.com/es-es/foto/vista-panoramica-del-oceano-durante-la-puesta-de-sol-1032650/";
-        break;
+function imagen(){ 
+    let num_imagen = parseInt(document.getElementById("num_imagen").value);
+    console.log(num_imagen);
+
+    switch (num_imagen) {
+        case 1:
+            document.getElementById("tamañoimg").src="https://images.pexels.com/photos/9700586/pexels-photo-9700586.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+            document.getElementById("tamañoimg").style.display = "block";
+            break;
         case 2:
-
-        break;
+            document.getElementById("tamañoimg").src="https://images.pexels.com/photos/14010115/pexels-photo-14010115.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+            document.getElementById("tamañoimg").style.display = "block";
+            break
         case 3:
-        break;
+            document.getElementById("tamañoimg").src="https://images.pexels.com/photos/14006742/pexels-photo-14006742.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+            document.getElementById("tamañoimg").style.display = "block";
+            break
         case 4:
-        break;
+            document.getElementById("tamañoimg").src="https://images.pexels.com/photos/13719410/pexels-photo-13719410.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+            document.getElementById("tamañoimg").style.display = "block";
+            break
         case 5:
-        break;     
-
-    };
+            document.getElementById("tamañoimg").src="https://images.pexels.com/photos/10595864/pexels-photo-10595864.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+            document.getElementById("tamañoimg").style.display = "block";
+            break    
+    
+    }
 };
-
-
 
