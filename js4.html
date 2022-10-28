@@ -7,46 +7,57 @@
     <title>Javascript 4</title>
     <script src="js/js4.js"></script>
     <link rel="stylesheet" href="img/">
+    <link rel="stylesheet" href="css/js4.css">
 </head>
 <body>
-    <h1>Javascript Funciones</h1>
+    <div class="text">
+       <h1>Javascript Funciones</h1> 
+    </div>
     
-    <div style="border: solid black; text-align: center;">
-        <br>
-        <div>
-            <label for="numero">Número</label>
-            <input type="text" name="numero" id="numero">
+    <article class="fun">
+        <div class="contenedor">
+            <h1>Divisiores</h1>
+            <br>
+            <div>
+                <label for="numero">Número</label>
+                <input type="text" name="numero" id="numero">
+            </div>
+            <br>
+            <div>
+                <label for="resul">Resultado</label>
+                <input type="text" name="resul" id="resul">
+            </div>
+            <br>
+            <div>
+                <button onclick="calcular()">Calcular</button>
+            </div>
+            <br>
         </div>
         <br>
-        <div>
-            <label for="resul">Resultado</label>
-            <input type="text" name="resul" id="resul">
-        </div>
         <br>
-        <div>
-            <button onclick="calcular()">Calcular</button>
-        </div>
-        <br>
-    </div>
-    <br>
-    <br>
 
-<div style="border: solid black; text-align: center;">
-    <h1>Ver Imagenes</h1>
-    <div>
-        <label for="num_imagen">Numero de la imagen:</label>
-        <input type="text" name="num_imagen" id="num_imagen">
-    </div>
-    <br>
-    <div>
-        <button onclick="imagen()">Mostrar imagen</button>
-    </div>
-    <br>
-    <div style="justify-content: center;">
-        <img src="" alt="imagen" id="tamañoimg" style="display: none; text-align: center;" height="300px" width= "200px">
-    </div>
-    <br>
-</div>
+        <div class="contenedor">
+            <h1>Ver Imagenes</h1>
+            <div>
+                <label for="num_imagen">Numero de la imagen:</label>
+                <input type="text" name="num_imagen" id="num_imagen">
+            </div>
+            <br>
+            <div>
+                <button onclick="imagen()">Mostrar imagen</button>
+            </div>
+            <br>
+            <div>
+                <center>
+                    <img src="" alt="imagen" id="tamañoimg" style="display: none;">
+                </center>
+                
+            </div>
+            <br>
+        </div>
+    </article>
+    
+
 
 </body>
 </html>
