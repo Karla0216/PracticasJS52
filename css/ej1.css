@@ -1,0 +1,40 @@
+body {
+    background-color: #C8DBBE;
+}
+
+.text{
+    border: dotted black;
+    background-color: rgba(255, 228, 196, 0.455);
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.perfect{
+    text-align: center;
+    font-size: 30px;
+}
+
+button {
+    background-color: #665A48;
+    border-radius: 10px;
+    color: #EDE4E0;
+    padding: 5px;
+    margin: 15px;
+}
+
+.formato{
+    text-align: center;
+    border: solid black 2px;
+    padding: 30px;
+    margin: 30px;
+}
+
