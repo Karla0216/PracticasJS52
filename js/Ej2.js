@@ -13,14 +13,22 @@
         toma 4 23
 */
 
-let horas = 4;
-let hrainicial = 5;
-let frecuencia = 6;
-let toma = 24/frecuencia;
+let hora_inicial = 9;
+let frecuencia = 3;
 
-console.log("No. de toma:" , toma);
+let cant_tomas = 24 / frecuencia;
 
-/* for(let i=hrainicial; i=toma; i=hrainicial){
-        console.log("No. de toma:" , toma, "Hora: ", i);
-} */;
+console.log("Horarios");
+console.log("Hora de la toma inicial: " + hora_inicial);
+console.log("Frecuencia de la toma diaria: " + frecuencia);
+console.log("Cantidad de tomas: " + cant_tomas);
 
+let horario = hora_inicial;
+
+for (let i = 1;i <= cant_tomas; i++) {
+    console.log(`Toma ` + i + ": " + (horario) + ":00 hrs");
+    horario = horario + frecuencia;
+    if (horario >= 24) {
+        horario = horario - 24;
+    };
+};
