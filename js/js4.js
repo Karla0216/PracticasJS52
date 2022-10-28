@@ -92,7 +92,7 @@ function imagen(){
             document.getElementById("tamañoimg").style.display = "block";
             break
         case 5:
-            document.getElementById("tamañoimg").src="https://images.pexels.com/photos/10595864/pexels-photo-10595864.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load";
+            document.getElementById("tamañoimg").src="https://etc.usf.edu/clipart/37100/37137/frac_01-04_37137_lg.gif";
             document.getElementById("tamañoimg").style.display = "block";
             break    
     
