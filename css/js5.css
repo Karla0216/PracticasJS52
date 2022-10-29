@@ -1,0 +1,82 @@
+body {
+    padding: 10px;
+    background-color: rgb(47, 8, 8);
+    background-image: url(https://images.pexels.com/photos/6256066/pexels-photo-6256066.jpeg?auto=compress&cs=tinysrgb&w=600); 
+
+}
+
+.tex{
+    border: dotted black;
+    background-color: rgba(255, 228, 196, 0.996);
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-family: monospace; 
+}
+
+.contenedor{
+    border: solid black; 
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    background-color: #1E5128;
+    height: auto;
+    width: auto;
+    justify-content: center;
+}
+ 
+
+input {
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+    background-color:#E9EFC0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+ 
+label {
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+select {
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color:#E9EFC0;
+    border-radius: 20px;
+    padding: 5px 10px;
+    
+}
+ 
+button {
+    background-color: #243D25;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 15px;
+    color: white;
+    font-size: 15px;
+}
+
+.text{
+    border: dotted black;
+    background-color: rgba(255, 228, 196, 0.455);
+    text-align: center;
+    padding: 8px;
+    margin: 15px;
+}
+
+.tab{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
