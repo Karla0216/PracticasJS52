@@ -10,25 +10,33 @@ Operacion _____
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CALCULADORA</title>
+    <title>Javascript 5</title>
     <script src="js/js5.js"></script>
+    <link rel="stylesheet" href="css/js5.css">
 </head>
 <body>
-    <div>
-        <h1>CALCULADORA</h1>
+
+    <div class="tex">
+        <h1>Javascript 5</h1> 
+    </div>
+    <br>
+
+
+    <div class="contenedor">
+        <h1 class="titulo">Calculadora</h1>
         <br>
         <div>
-            <label for="primer_numero">Primer Nùmero</label>
+            <label for="primer_numero">Primer Número</label>
             <input type="number" name="primer_numero" id="primer_numero">
         </div>
         <br>
         <div>
-            <label for="segundo_numero">Segundo Nùmero</label>
+            <label for="segundo_numero">Segundo Número              </label>
             <input type="number" name="segundo_numero" id="segundo_numero">
         </div>
         <br>
         <div>
-            <label for="operacion">Operacion</label>
+            <label for="operacion">Operacion             </label>
             <select name="operacion" id="operacion">
                 <option value="+">+</option>
                 <option value="-">-</option>
@@ -38,13 +46,56 @@ Operacion _____
         </div>
         <br>
         <div>
-            <label for="resultado">Resultado</label>
+            <label for="resultado">Resultado             </label>
             <input type="number" name="resultado" id="resultado">
         </div>
         <br>
         <div>
             <button onclick="calcular()">Calcular</button>
         </div>
+        <br>
+    </div>
+    <br>
+
+    <!-- /* PROGRAMA TABLA
+        Tabla __________
+        Tipo ___________
+        Longitud _______
+        {resultado aqui} 
+        <Ver tabla>*/ -->
+    
+    <div class="contenedor">
+        <h1 class="titulo">Tablas</h1>
+        <div>
+            <br>
+            <div>
+                <label for="tabla">Tabla</label>
+                <input type="text" name="" id="tabla">
+            </div>
+            <br>
+            <div>
+                <label for="tipo">Tipo </label>
+                <select name="" id="tipo">
+                    <option value="1">Normal</option>
+                    <option value="2">Inversa</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="long">Longitud</label>
+                <input type="text" name="" id="long">
+            </div>
+        </div>
+        <br>
+        <span id="tablanum" class="tab"></span>
+        <br>
+        <center>
+            <table id="tabla-resul" class="tab"></table>
+        </center>
+        <br>
+        <button onclick="Tabla()">Ver tabla</button>
+        <br>
+        <br>
     </div>
 
 </body>
